@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+article {
+  width: 40%;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 2%;
+}
+
+#topHeader {
+  display: flexbox;
+  width: 100%;
+  color: black;
+}
+
+#topLeftHeader {
+  margin: 2%;
+  float: inline-start;
+}
+
+#middleLeftHeader {
+  margin: 0.7%;
+  float: inline-start;
+}
+
+/*
+#topLeftUpper {
+  flex: 1;
+  font-size: 18;
+}
+
+#topLeftLower {
+  flex: -1;
+  font-size: 18;
+}
+  */
+
+#threeDots {
+  margin: 2%;
+  float: right;
+  color: black;
+}
+
+img {
+  margin: auto;
+  width: 95%;
+  height: auto;
+}
+
+#icons {
+  display: flex;
+  margin: 1.5rem;
+}
+
+#bookmark {
+  float: right;
+  margin-left: 85%;
+}
+
+#cardBody {
+    font-size: large;
+    width: 90%;
+    text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 0.5em;
+}
